@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var student={
+            name:'padhu',
+            age:23,
+            hobbies:['games','music'],
+            address:{
+                city:'vellore'
+            }
+
+        };
+        //document.write(student);
+       // document.write(student.name);
+      //  document.write(student.hobbies[0]);
+       document.write(student.address.city);
+        for (const key in student) {
+            const element = student[key];
+            document.write("<br>");
+            document.write(key+" : "+element);        
+        
+        }
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>
